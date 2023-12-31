@@ -40,11 +40,11 @@ const Home = () => {
                     <p>Java</p>
                 </div>
 
-                <a href="/projects">
+                <Link to="/projects">
                     <div className="center-logo">
                         <i className="fa-solid fa-laptop-code fa-10x"></i>
                     </div>
-                </a>
+                </Link>
             </div>
 
         </>);
