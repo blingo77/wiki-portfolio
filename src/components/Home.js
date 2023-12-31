@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const Home = () => {
     return (
         <>
@@ -38,9 +40,11 @@ const Home = () => {
                     <p>Java</p>
                 </div>
 
-                <div className="center-logo">
-                    <i className="fa-solid fa-laptop-code fa-10x"></i>
-                </div>
+                <a href="/projects">
+                    <div className="center-logo">
+                        <i className="fa-solid fa-laptop-code fa-10x"></i>
+                    </div>
+                </a>
             </div>
 
         </>);

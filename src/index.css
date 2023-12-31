@@ -40,6 +40,13 @@ body{
   text-shadow: 0px 0px 5px rgb(52, 121, 148),
               0px 0px 30px  rgb(52, 121, 148);
 }
+.center-logo a{
+  text-decoration: none !important;
+  color: inherit;
+}
+.center-logo i{
+  color: rgb(19, 25, 61);
+}
 .python-logo{
   position: absolute;
   left: 170px;
