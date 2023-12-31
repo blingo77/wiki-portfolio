@@ -35,6 +35,11 @@ body{
   left: 250px;
   top: 120px;
 }
+.center-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
+}
 .python-logo{
   position: absolute;
   left: 170px;
@@ -43,6 +48,11 @@ body{
 .python-logo p{
   position: absolute;
   top: 30px;
+}
+.python-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
 }
 .js-logo{
   position: absolute;
@@ -54,6 +64,11 @@ body{
   top: 30px;
   right: -13px;
 }
+.js-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
+}
 .html-logo{
   position: absolute;
   left: 120px;
@@ -62,6 +77,11 @@ body{
 .html-logo p{
   position: absolute;
   top: 30px;
+}
+.html-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
 }
 .css-logo{
   position: absolute;
@@ -72,6 +92,11 @@ body{
   position: absolute;
   top: 30px;
 }
+.css-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
+}
 .react-logo{
   position: absolute;
   left: 490px;
@@ -81,6 +106,11 @@ body{
   position: absolute;
   top: 30px;
 }
+.react-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
+}
 .java-logo{
   position: absolute;
   left: 160px;
@@ -89,4 +119,9 @@ body{
 .java-logo p{
   position: absolute;
   top: 30px;
+}
+.java-logo:hover{
+  transition: all 1s;
+  text-shadow: 0px 0px 5px rgb(52, 121, 148),
+              0px 0px 30px  rgb(52, 121, 148);
 }
