@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Oswald:wght@500&family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
+
 body{
   margin: 0;
+  font-family: Playfair Display, 'Times New Roman', Times, serif;
+
 }
 /* Home Styles */
 .title{
@@ -144,7 +148,7 @@ body{
   width: 394px;
   height: 44px;
   position: absolute;
-  left: 70px;
+  left: 50px;
   top: 7px;
   border: 1px solid black;
 }
@@ -152,7 +156,7 @@ body{
   width: 50px;
   height: 46px;
   position: absolute;
-  left: 465px;
+  left: 435px;
   top: 7px;
 }
 .search-input{
