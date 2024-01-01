@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  max-width: 1800px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+.navBar h1 {
+  color: rgb(10, 12, 24);
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+
+}
+.navBar .links {
+  position: absolute;
+  left: 1500px;
+  top: 30px;
+}
+.navBar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(10, 12, 24);
+}
+.navBar a:hover {
+  color: #519cf3;
+}

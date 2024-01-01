@@ -1,17 +1,14 @@
 import '../css/About.css'
 import Brandon from '../images/brandon.jpg'
+import NavBar from './Navbar';
 
 const About = () => {
+
+    const title = 'About'
+
     return ( 
     <>
-
-    
-
-    <div className="about-container">
-        <div className="pic-container">
-            <img src={Brandon} alt="Picture of Brandon" className="brandon-pic" />
-        </div>
-    </div>
+        <NavBar title={title}></NavBar>
 
     </> );
 }
