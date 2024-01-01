@@ -1,20 +1,25 @@
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Route, Switch, useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useHistory,
+} from "react-router-dom/cjs/react-router-dom.min";
 import Projects from "./Projects";
-import {useEffect} from 'react'
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => console.log("hi"));
+  const history = useHistory();
 
-    useEffect(() => console.log('hi'))
-    const history = useHistory()
+  const handleSearch = () => {
+    const searchBarValue = document
+      .getElementById("search-input")
+      .value.toLowerCase();
+    console.log(searchBarValue);
 
-    const handleSearch = () => {
-
-        const searchBarValue = document.getElementById("search-input").value.toLowerCase()
-        console.log(searchBarValue)
-
-        history.push(`/${searchBarValue}`)
-    }
+    history.push(`/${searchBarValue}`);
+  };
 
   return (
     <>
@@ -68,6 +73,16 @@ const Home = () => {
             className="search-input"
             id="search-input"
           ></input>
+
+          <div className="drop-down">
+            <button ><i class="fa-solid fa-caret-down"></i></button>
+            <div className="content">
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </div>
+
+          </div>
         </div>
         <button id="search-button" type="submit" onClick={handleSearch}>
           <i class="fa-solid fa-magnifying-glass fa-2x"></i>

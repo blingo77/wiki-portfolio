@@ -158,6 +158,12 @@ body{
   position: absolute;
   left: 435px;
   top: 7px;
+  background-color: rgb(180, 187, 199);
+}
+#search-button:hover{
+  transition: all 0.5s;
+  background-color: rgb(228, 232, 238);
+  
 }
 .search-input{
   font-size: 20px;
@@ -168,4 +174,34 @@ body{
   top: 9px;
   border: none;
   outline: none;
+}
+.drop-down{
+  position: absolute;
+  left: 350px;
+  top: 10px;
+}
+.drop-down button{
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.drop-down a{
+  display: block;
+  text-decoration: None;
+  padding: 10px 15px;
+}
+.drop-down .content{
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: rgb(255, 255, 255);
+  max-width: 90px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+.drop-down:hover .content{
+  display: block;
+}
+.content a:hover{
+  background-color: aliceblue;
 }
