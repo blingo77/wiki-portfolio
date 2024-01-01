@@ -181,9 +181,12 @@ body{
   top: 10px;
 }
 .drop-down button{
-  background-color: aliceblue;
   color: black;
   cursor: pointer;
+  border: none;
+}
+.drop-down button:hover{
+  background-color: aliceblue;
 }
 .drop-down a{
   display: block;
