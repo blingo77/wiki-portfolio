@@ -28,7 +28,6 @@ body{
   margin-right: auto;
   margin-top: 50px;
   position: relative;
-  
 }
 .center-logo{
   position: absolute;
@@ -45,7 +44,7 @@ body{
   color: inherit;
 }
 .center-logo i{
-  color: rgb(19, 25, 61);
+  color: rgb(10, 12, 24);
 }
 .python-logo{
   position: absolute;
@@ -131,4 +130,38 @@ body{
   transition: all 1s;
   text-shadow: 0px 0px 5px rgb(52, 121, 148),
               0px 0px 30px  rgb(52, 121, 148);
+}
+/* Search bar styles */
+.nav-container{
+  height: 61px;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  position: relative;
+}
+.search-container{
+  width: 394px;
+  height: 44px;
+  position: absolute;
+  left: 70px;
+  top: 7px;
+  border: 1px solid black;
+}
+#search-button{
+  width: 50px;
+  height: 46px;
+  position: absolute;
+  left: 465px;
+  top: 7px;
+}
+.search-input{
+  font-size: 20px;
+  width: 317px;
+  height: 26px;
+  position: absolute;
+  left: 15px;
+  top: 9px;
+  border: none;
+  outline: none;
 }
