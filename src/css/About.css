@@ -1,0 +1,35 @@
+.about-container{
+    width: 1800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+.pic-container{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+.bigText-container{
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    left: 812px;
+    top: 100px;
+}
+.bigText-container h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.name-title{
+    position: relative;
+    top: -40px;
+}
+.text-container{
+    position: relative;
+    top: -50px;
+}
+.text-container p{
+    margin-left: 10px;
+}

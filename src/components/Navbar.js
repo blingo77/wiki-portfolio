@@ -5,7 +5,7 @@ const NavBar = ({title}) => {
 
     return ( 
 
-        <nav className="navBar">
+        <div className="navBar">
         <Link to="/">
         <h1>{title}</h1>
         </Link>
@@ -15,7 +15,7 @@ const NavBar = ({title}) => {
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
         </div>
-    </nav>
+    </div>
      );
 }
  

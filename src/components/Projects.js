@@ -9,7 +9,6 @@ const Projects = () => {
 
         <NavBar title={title}></NavBar>
 
-        <h1>Projects</h1>
         </>
      );
 }
