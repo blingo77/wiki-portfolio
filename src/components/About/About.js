@@ -1,6 +1,6 @@
-import '../css/About.css'
-import Brandon from '../images/brandon.jpg'
-import NavBar from './Navbar';
+import './About.css'
+import Brandon from '../../images/brandon.jpg'
+import NavBar from '../NavBar/Navbar'
 
 const About = () => {
 
@@ -17,7 +17,7 @@ const About = () => {
 
             <div className="bigText-container">
                 <h1>Hello!</h1>
-                <h1 className="name-title">I'm Brandon Lingo</h1>
+                <h1 className="name-title">I'm Brandon Lingo.</h1>
 
                 <div className="text-container">
                     <p>Enthusiastic and highly motivated aspiring software engineer with a strong foundation in computer science 

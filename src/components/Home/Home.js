@@ -5,17 +5,28 @@ import {
   Switch,
   useHistory,
 } from "react-router-dom/cjs/react-router-dom.min";
-import Projects from "./Projects";
+import Projects from "../Projects/Projects";
 import { useEffect } from "react";
+import NotFound from "../404/404";
 
 const Home = () => {
-  useEffect(() => console.log("hi"));
+
   const history = useHistory();
+
 
   const handleSearch = () => {
     const searchBarValue = document
       .getElementById("search-input")
       .value.toLowerCase();
+
+    if(searchBarValue != "projects" && searchBarValue != "about" && searchBarValue != "contact"){
+
+      console.log('error')
+      history.push('/404')
+      return 
+      
+    }
+    
     console.log(searchBarValue);
 
     history.push(`/${searchBarValue}`);
