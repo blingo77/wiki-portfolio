@@ -34,9 +34,13 @@ const Home = () => {
 
   return (
     <>
+      {/*
+      Properties with role tags are for testing purposes
+      */}
+      
       <div className="title">
         <h1>Brandon Lingo</h1>
-        <p>Software Devolper</p>
+        <p role="paragraph">Software Devolper</p>
       </div>
 
       <div className="main-container">
@@ -83,6 +87,7 @@ const Home = () => {
             placeholder="ex. About, Projects, Contact"
             className="search-input"
             id="search-input"
+            role="textbox1"
           ></input>
 
           <div className="drop-down">
@@ -95,7 +100,7 @@ const Home = () => {
 
           </div>
         </div>
-        <button id="search-button" type="submit" onClick={handleSearch}>
+        <button id="search-button" role="searchButton"type="submit" onClick={handleSearch}>
           <i class="fa-solid fa-magnifying-glass fa-2x"></i>
         </button>
       </div>
