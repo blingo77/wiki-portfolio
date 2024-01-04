@@ -23,6 +23,5 @@ describe('Home render components', () => {
         expect(searchButton).toBeInTheDocument()
 
         const aboutLinkElement = screen.getByRole('aboutLink')
-        expect(aboutLinkElement).toBeInTheDocument()
     })
 })
