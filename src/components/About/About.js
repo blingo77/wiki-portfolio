@@ -2,6 +2,8 @@ import './About.css'
 import Brandon from '../../images/brandon.jpg'
 import NavBar from '../NavBar/Navbar'
 import pythonLogo from '../../images/python.svg'
+import jsLogo from '../../images/javascript.svg'
+import javaLogo from '../../images/java.svg'
 
 const About = () => {
 
@@ -46,9 +48,16 @@ const About = () => {
                 <div className="py-logo">
                     <img src={pythonLogo}></img>
                 </div>
-
+                <div className="js-logo">
+                    <img src={jsLogo}></img>
+                </div>
+                <div className="js-logo">
+                    <img src={jsLogo}></img>
+                </div>
+                <div className="java-logo">
+                    <img src={javaLogo}></img>
+                </div>
             </div>
-
         </div>
 
     </> );

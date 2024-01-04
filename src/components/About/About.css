@@ -69,13 +69,39 @@
     height: 100px;
     background-color: chocolate;
     position: absolute;
-    position: relative;
-    top: 50px;
-    left: 150px;
+    margin-left: 140px;
+    margin-top: 40px;
 }
 .py-logo img{
     position: absolute;
     width: 80%;
     left: 10px;
     top: 10px
+}
+.js-logo{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin-left: -30px;
+    top: 40px;
+}
+.js-logo img{
+    position: absolute;
+    width: 80%;
+    left: 10px;
+    top: 10px
+}
+.java-logo{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+.java-logo img{
+    position: absolute;
+    width: 80%;
+    left: 10px;
+    top: -10px
 }
