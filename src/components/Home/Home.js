@@ -93,7 +93,7 @@ const Home = () => {
           <div className="drop-down">
             <button ><i class="fa-solid fa-caret-down"></i></button>
             <div className="content">
-                <Link to="/about">About</Link>
+                <Link to="/about" role="aboutLink">About</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </div>
