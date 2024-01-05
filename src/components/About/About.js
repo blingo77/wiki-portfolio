@@ -4,6 +4,14 @@ import NavBar from '../NavBar/Navbar'
 import pythonLogo from '../../images/python.svg'
 import jsLogo from '../../images/javascript.svg'
 import javaLogo from '../../images/java.svg'
+import htmlLogo from '../../images/html.svg'
+import cssLogo from '../../images/css.svg'
+import flaskLogo from '../../images/flask.svg'
+import reactLogo from '../../images/react.svg'
+import jestLogo from '../../images/jest.svg'
+import gitLogo from '../../images/git.svg'
+import gitHubLogo from '../../images/github.svg'
+import {Link} from 'react-router-dom'
 
 const About = () => {
 
@@ -48,15 +56,37 @@ const About = () => {
                 <div className="py-logo">
                     <img src={pythonLogo}></img>
                 </div>
-                <div className="js-logo">
+                <div className="js-logo2">
                     <img src={jsLogo}></img>
                 </div>
-                <div className="js-logo">
-                    <img src={jsLogo}></img>
-                </div>
-                <div className="java-logo">
+
+                <div className="java-logo2">
                     <img src={javaLogo}></img>
                 </div>
+
+                 <div className="html-logo2">
+                    <img src={htmlLogo}></img>
+                </div>
+                <div className="css-logo2">
+                    <img src={cssLogo}></img>
+                </div>
+                <div className="flask-logo">
+                    <img src={flaskLogo}></img>
+                </div>
+                <div className="react-logo2">
+                    <img src={reactLogo}></img>
+                </div>
+                <div className="jest-logo">
+                    <img src={jestLogo}></img>
+                </div>
+                <div className="git-logo">
+                    <img src={gitLogo}></img>
+                </div>
+                <a href='https://github.com/blingo77'>
+                <div className="gitHub-logo">
+                    <img src={gitHubLogo}></img>
+                </div>
+                </a>
             </div>
         </div>
 
