@@ -82,7 +82,7 @@ const About = () => {
                 <div className="git-logo">
                     <img src={gitLogo}></img>
                 </div>
-                <a href='https://github.com/blingo77'>
+                <a href='https://github.com/blingo77' target='_blank'>
                 <div className="gitHub-logo">
                     <img src={gitHubLogo}></img>
                 </div>

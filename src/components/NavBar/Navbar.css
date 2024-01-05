@@ -9,6 +9,7 @@
 }
 .navBar .links {
   margin-left: auto;
+  margin-right: 20px;
 }
 .navBar a {
   margin-left: 16px;
