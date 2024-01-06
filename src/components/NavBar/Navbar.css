@@ -15,6 +15,7 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color: black;
 }
 .navBar a:hover {
   color: #3577f1;
