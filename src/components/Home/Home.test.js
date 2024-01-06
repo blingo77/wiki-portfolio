@@ -1,7 +1,7 @@
 import Home from './Home'
 import {render, screen} from '@testing-library/react'
 import '@testing-library/jest-dom';
-import { BrowserRouter as Router } from 'react-router-dom/cjs/react-router-dom.min'
+import { HashRouter as Router } from 'react-router-dom/cjs/react-router-dom.min'
 
 describe('Home render components', () => {
     test('Render componenets', () => {
