@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/wiki-portfolio/static/css/main.7468356b.css",
+    "main.js": "/wiki-portfolio/static/js/main.c1e3368d.js",
+    "static/media/BankSite-img.png": "/wiki-portfolio/static/media/BankSite-img.93c286270948f5b5fd12.png",
+    "static/media/StarWars-gp-img.png": "/wiki-portfolio/static/media/StarWars-gp-img.43959effe3626eced4f3.png",
+    "static/media/brandon.jpg": "/wiki-portfolio/static/media/brandon.5f7850b2c54b7a6d9b8a.jpg",
+    "static/media/flask.svg": "/wiki-portfolio/static/media/flask.ec547b9c35a6563b1cadca8e32d5aaf0.svg",
+    "static/media/react.svg": "/wiki-portfolio/static/media/react.f41f8fcbf0772f16ec57b3db64ba0b9f.svg",
+    "static/media/jest.svg": "/wiki-portfolio/static/media/jest.40c0d6f52d254a46350c6be881323889.svg",
+    "static/media/github.svg": "/wiki-portfolio/static/media/github.7710ad964469a5b768f4b014aedaa130.svg",
+    "static/media/java.svg": "/wiki-portfolio/static/media/java.6117a1e4555ba4d0c7900077efa39b1d.svg",
+    "static/media/html.svg": "/wiki-portfolio/static/media/html.9ac214b84c05f805ceda6cf8862e520c.svg",
+    "static/media/python.svg": "/wiki-portfolio/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
+    "static/media/mail.svg": "/wiki-portfolio/static/media/mail.eac467265c4768caca2657af600f92fd.svg",
+    "static/media/javascript.svg": "/wiki-portfolio/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
+    "static/media/git.svg": "/wiki-portfolio/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
+    "index.html": "/wiki-portfolio/index.html",
+    "static/media/phone.svg": "/wiki-portfolio/static/media/phone.de29023f4490908bf08276859261a87a.svg",
+    "static/media/css.svg": "/wiki-portfolio/static/media/css.b2d580078d2ad6af28d7580875672998.svg",
+    "main.7468356b.css.map": "/wiki-portfolio/static/css/main.7468356b.css.map",
+    "main.c1e3368d.js.map": "/wiki-portfolio/static/js/main.c1e3368d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7468356b.css",
+    "static/js/main.c1e3368d.js"
+  ]
+}
